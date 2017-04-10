@@ -1,0 +1,25 @@
+{
+    "name": "bullsoft/fp-project",
+    "description": "Phalcon+ application skeleton",
+    "homepage": "http://phalconphp.org",
+    "authors": [{"name": "顾伟刚", "email": "guweigang@bullsoft.org"}],
+    "require": {
+        "bullsoft/falconplus-common": "dev-master",
+        "mnsami/composer-custom-directory-installer": "1.1.*",
+        "league/climate": "*",
+        "zendframework/zend-code": "*",
+        "zendframework/zend-stdlib": "*",
+        "doctrine/annotations":"*"
+    },
+    "extra": {
+        "installer-paths": {
+            "./common": ["bullsoft/falconplus-common"]
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bullsoft/falconplus-common.git"
+        }
+    ]
+}
