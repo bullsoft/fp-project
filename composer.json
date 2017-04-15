@@ -9,17 +9,12 @@
         "league/climate": "*",
         "zendframework/zend-code": "*",
         "zendframework/zend-stdlib": "*",
-        "doctrine/annotations":"*"
+        "doctrine/annotations":"*",
+        "container-interop/container-interop": "^1.1.0"
     },
     "extra": {
         "installer-paths": {
             "./common": ["bullsoft/falconplus-common"]
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/bullsoft/falconplus-common.git"
-        }
-    ]
+    }
 }

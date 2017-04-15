@@ -1,3 +1,6 @@
 common/
 vendor/
 composer.lock
+*/access.log
+*/server.pid
+composer.json.dev
