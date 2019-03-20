@@ -7,11 +7,12 @@
         "bullsoft/falconplus-common": "1.*",
         "mnsami/composer-custom-directory-installer": "1.1.*",
         "league/climate": "*",
-        "league/flysystem": "~1.0.37",
+        "league/flysystem": "1.*",
         "zendframework/zend-code": "*",
         "zendframework/zend-stdlib": "*",
-        "doctrine/annotations":"*",
-        "container-interop/container-interop": "^1.1.0"
+        "doctrine/annotations":"^1.6",
+        "container-interop/container-interop": "^1.1.0",
+        "psx/schema": "^2.4"
     },
     "extra": {
         "installer-paths": {
