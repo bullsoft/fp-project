@@ -5,14 +5,14 @@
     "authors": [{"name": "顾伟刚", "email": "guweigang@bullsoft.org"}],
     "require": {
         "bullsoft/falconplus-common": "1.*",
-        "mnsami/composer-custom-directory-installer": "1.1.*",
+        "mnsami/composer-custom-directory-installer": "*",
         "league/climate": "*",
         "league/flysystem": "1.*",
         "guzzlehttp/guzzle": "~6.0",
-        "zendframework/zend-code": "*",
-        "zendframework/zend-stdlib": "*",
+	"laminas/laminas-code": "*",
+	"laminas/laminas-stdlib": "*",
         "doctrine/annotations":"^1.6",
-        "container-interop/container-interop": "^1.1.0",
+	"psr/container": "*",
         "psx/schema": "^2.4",
         "php-pm/php-pm": "^2.0"
     },
