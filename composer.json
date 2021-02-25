@@ -4,7 +4,7 @@
     "homepage": "http://phalconphp.org",
     "authors": [{"name": "顾伟刚", "email": "guweigang@bullsoft.org"}],
     "require": {
-        "bullsoft/falconplus-common": "1.*",
+        "bullsoft/falconplus-common": "^2.0",
         "mnsami/composer-custom-directory-installer": "*",
         "league/climate": "*",
         "league/flysystem": "1.*",
