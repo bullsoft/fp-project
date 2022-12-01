@@ -1,4 +1,3 @@
-common/
 vendor/
 composer.lock
 */access.log
