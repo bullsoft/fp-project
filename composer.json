@@ -4,21 +4,32 @@
     "homepage": "http://phalconphp.org",
     "authors": [{"name": "顾伟刚", "email": "guweigang@bullsoft.org"}],
     "require": {
-        "bullsoft/falconplus-common": "1.*",
+        "bullsoft/falconplus-common": "3.*",
         "league/climate": "*",
+        "mnsami/composer-custom-directory-installer": "*",
         "league/flysystem": "1.*",
         "guzzlehttp/guzzle": "~6.0",
-        "zendframework/zend-code": "*",
-        "zendframework/zend-stdlib": "*",
         "doctrine/annotations":"^1.6",
-        "container-interop/container-interop": "^1.1.0",
+        "laminas/laminas-code": "*",
+        "laminas/laminas-stdlib": "*",
+        "psr/container": "*",
         "psx/schema": "^2.4",
         "php-pm/php-pm": "^2.0"
+    },
+    "extra": {
+        "installer-paths": {
+            "./common": ["bullsoft/falconplus-common"]
+        }
     },
     "autoload": {
         "psr-4": {
             "PHPPM\\Bridges\\PhalconPlus\\": "common/vendor/PHPPM",
             "BullSoft\\": "common/vendor/BullSoft"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "mnsami/composer-custom-directory-installer": true
         }
     }
 }
